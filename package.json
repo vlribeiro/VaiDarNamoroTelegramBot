@@ -1,0 +1,11 @@
+{
+  "name": "vdnbot",
+  "scripts": {
+    "start": "node ./src/app.js"
+  },
+  "packageManager": "yarn@3.2.2",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "node-telegram-bot-api": "^0.58.0"
+  }
+}
