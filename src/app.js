@@ -20,18 +20,20 @@ const sendReply = (msg, term) => {
 }
 
 bot.on('message', (msg) => {
-  fs.readFile(`./data/reply_data.json`, (err, data) => {
-    if (err) throw err;
-    
-    const { reply_data: captureTerms } = JSON.parse(data);
-    const messageText = msg.text.toString();
-
-    const term = captureTerms
-      .find(term => term.regex.some(rx => new RegExp(rx, 'i').test(messageText)))
-
-    if (term != null)
-      sendReply(msg, term);
-  });
+  if (msg.text != null) {
+    fs.readFile(`./data/reply_data.json`, (err, data) => {
+      if (err) throw err;
+      
+      const { reply_data: captureTerms } = JSON.parse(data);
+      const messageText = msg.text.toString();
+  
+      const term = captureTerms
+        .find(term => term.regex.some(rx => new RegExp(rx, 'i').test(messageText)))
+  
+      if (term != null)
+        sendReply(msg, term);
+    });
+  }
 });
 
 bot.on('polling_error', (err) => console.log(err));
