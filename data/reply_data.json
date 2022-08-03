@@ -1,0 +1,63 @@
+{
+    "reply_data": [{
+        "regex": [".*papel(ã|a)o.*"],
+        "audio": "https://www.myinstants.com/media/sounds/que-papelao-hein-vai-dar-namoro-2022.mp3"
+      }, {
+        "regex": [".*tome.*"],
+        "audio": "https://www.myinstants.com/media/sounds/tome-vai-dar-namoro.mp3"
+      }, {
+        "regex": [".*rapaz.*"],
+        "audio": "https://www.myinstants.com/media/sounds/vinheta-xaropinho-rapaz_dx3f4Be.mp3"
+      }, {
+        "regex": [".*ele gosta.*"],
+        "audio": "https://www.myinstants.com/media/sounds/ele-g0sta.mp3"
+      }, {
+        "regex": [".+ u+i .+", "^u+i.*$"],
+        "audio": "https://www.myinstants.com/media/sounds/uuuii-vai-dar-namoro-2022.mp3"
+      }, {
+        "regex": [".*cava+lo.*"],
+        "audio": "https://www.myinstants.com/media/sounds/cavaalo0.mp3"
+      }, {
+        "regex": [".*dema+is.*"],
+        "audio": "https://www.myinstants.com/media/sounds/demaals.mp3"
+      }, {
+        "regex": ["^kk+$", "^ha(ha)+$"],
+        "audio": "https://www.myinstants.com/media/sounds/risada-atumalaca-vai-dar-namoro.mp3"
+      }, {
+        "regex": [".*dan(ç|c)a.*", ".*gatinho.*"],
+        "audio": "https://www.myinstants.com/media/sounds/danca-gatinho-vai-dar-namoro.mp3"
+      }, {
+        "regex": [".*sem gra(c|ç)a.*"],
+        "audio": "https://www.myinstants.com/media/sounds/que-cara-mais-sem-graca-vai-dar-namoro-2022.mp3"
+      }, {
+        "regex": [".*pare.*"],
+        "audio": "https://www.myinstants.com/media/sounds/pare-vai-dar-namoro.mp3"
+      }, {
+        "regex": ["^xii+!*$"],
+        "audio": "https://www.myinstants.com/media/sounds/xiii-vai-dar-namoro-2022.mp3"
+      }, {
+        "regex": [".*mam(a|ã)e+.*"],
+        "audio": "https://www.myinstants.com/media/sounds/aii-mamae.mp3"
+      }, {
+        "regex": [".*abr(ua)+.*"],
+        "audio": "https://www.myinstants.com/media/sounds/auhbrauhlb-vai-dar-namoro.mp3"
+      }, {
+        "regex": ["^che+ga+!*$"],
+        "audio": "https://www.myinstants.com/media/sounds/ch3ga.mp3"
+      }, {
+        "regex": ["^i+rra+!*$"],
+        "audio": "https://www.myinstants.com/media/sounds/iiirraa-vai-dar-namoro-2022.mp3"
+      }, {
+        "regex": [".*(calma|meu filho|que isso).*"],
+        "audio": "https://www.myinstants.com/media/sounds/que-isso-meu-filho-calma-vai-dar-namoro-2022.mp3"
+      }, {
+        "regex": [".*brincadeira.*"],
+        "audio": "https://www.myinstants.com/media/sounds/e-brincadeira-ein-vai-dar-namoro-2022.mp3"
+      }, {
+        "regex": [".*t(a|á) bom.*"],
+        "audio": "https://www.myinstants.com/media/sounds/tao-ta-bom-vai-dar-namoro.mp3"
+      }, {
+        "regex": ["^n(a|ã)o$"],
+        "audio": "https://www.myinstants.com/media/sounds/nao-vai-dar-namoro-2022.mp3"
+      }]
+}
